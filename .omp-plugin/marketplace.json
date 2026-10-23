@@ -1,0 +1,30 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "eyn-stack",
+  "owner": {
+    "name": "Canq Pham",
+    "url": "https://github.com/canqpham"
+  },
+  "metadata": {
+    "description": "Quy trình agent cho công ty dịch vụ kế toán dùng Smart Pro."
+  },
+  "plugins": [
+    {
+      "name": "eyn-stack",
+      "description": "ketoan-mode: điều tra chênh lệch, khóa sổ kỳ, nghiên cứu nghiệp vụ. Agent không bao giờ ghi sổ hay nộp tờ khai.",
+      "source": "./",
+      "version": "0.1.0",
+      "author": {
+        "name": "Canq Pham"
+      },
+      "repository": "https://github.com/canqpham/eyn-stack",
+      "license": "MIT",
+      "category": "productivity",
+      "keywords": [
+        "ke-toan",
+        "smart-pro",
+        "vietnam"
+      ]
+    }
+  ]
+}
