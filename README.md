@@ -31,6 +31,7 @@ modelRoles:
 | `skills/ho-so` | Hồ sơ theo MST và kỳ, mã băm tệp đầu vào, trạng thái kỳ, nhật ký quyết định |
 | `skills/smart-pro` | Xuất báo cáo nào từ Smart Pro, lập tệp nhập F8-F |
 | `agents/ketoan-lap`, `agents/ketoan-soat` | Người lập và người soát |
+| `skills/principle-*` | 26 nguyên tắc. 23 nguyên tắc chuyển từ pstack sang kế toán, 3 nguyên tắc kiểm soát mới: tách người lập và người duyệt, tôn trọng kỳ, để lại dấu vết |
 
 ## Kiểm thử
 
