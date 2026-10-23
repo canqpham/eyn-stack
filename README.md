@@ -7,6 +7,7 @@ Plugin omp cho công ty dịch vụ kế toán dùng Smart Pro. Agent lập bả
 ```sh
 omp --plugin-dir /đường/dẫn/eyn-stack
 export KETOAN_ROOT=~/KeToan
+cd /đường/dẫn/eyn-stack && npm install
 ```
 
 `KETOAN_ROOT` là thư mục chứa hồ sơ khách hàng. Đặt trên máy của công ty, không đưa vào git.
@@ -30,6 +31,7 @@ modelRoles:
 | `skills/ketoan-mode` | Quy tắc chung, danh sách việc phải dừng hỏi, ba playbook: nghiên cứu, điều tra chênh lệch, khóa sổ kỳ |
 | `skills/ho-so` | Hồ sơ theo MST và kỳ, mã băm tệp đầu vào, trạng thái kỳ, nhật ký quyết định |
 | `skills/smart-pro` | Xuất báo cáo nào từ Smart Pro, lập tệp nhập F8-F |
+| `skills/doi-chieu` | Bảng chuẩn sao kê và kiểm số dư, bảng đối chiếu xlsx có công thức sống, đọc xlsx của Smart Pro kèm địa chỉ ô, trích bảng từ PDF sao kê |
 | `agents/ketoan-lap`, `agents/ketoan-soat` | Người lập và người soát |
 | `skills/principle-*` | 26 nguyên tắc. 23 nguyên tắc chuyển từ pstack sang kế toán, 3 nguyên tắc kiểm soát mới: tách người lập và người duyệt, tôn trọng kỳ, để lại dấu vết |
 

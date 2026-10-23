@@ -4,5 +4,8 @@
   "type": "module",
   "scripts": {
     "test": "node --test \"skills/**/*.test.mjs\""
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0"
   }
 }
