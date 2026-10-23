@@ -1,0 +1,25 @@
+{
+  "name": "eyn-stack",
+  "displayName": "eyn-stack",
+  "version": "0.1.0",
+  "description": "Quy trình agent cho công ty dịch vụ kế toán dùng Smart Pro. Agent chuẩn bị và đối chiếu, con người ghi sổ, khóa sổ và nộp tờ khai.",
+  "author": {
+    "name": "Canq Pham"
+  },
+  "repository": "https://github.com/canqpham/eyn-stack",
+  "license": "MIT",
+  "keywords": [
+    "ke-toan",
+    "accounting",
+    "smart-pro",
+    "vietnam",
+    "doi-chieu",
+    "khoa-so"
+  ],
+  "category": "productivity",
+  "tags": [
+    "accounting",
+    "workflow",
+    "review"
+  ]
+}

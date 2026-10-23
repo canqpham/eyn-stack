@@ -1,0 +1,8 @@
+{
+  "name": "eyn-stack",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test \"skills/**/*.test.mjs\""
+  }
+}
